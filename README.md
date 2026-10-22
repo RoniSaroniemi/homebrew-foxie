@@ -1,5 +1,11 @@
 # Foxie for Homebrew
 
+> **Brew personal use is currently blocked (2026-10-22).** The actual0.4.0 cask installation succeeded, but macOS rejected the quarantined native Mac Keychain adapter, so personal CLI/MCP reads did not work. This Brew channel has not passed personal or both-host acceptance. Do not bypass quarantine or change macOS security policy to complete this installation.
+>
+> Use the working native Mac0.4.1 installer instead: `curl -fsSL https://storage.googleapis.com/foxie-cli-downloads-598510081965/install.sh | sh`. If you installed this cask, first follow the explicit Homebrew-to-native ownership transfer below; preserve your grant/profile and avoid two PATH owners. See the [current native install/update/recovery guide](https://github.com/RoniSaroniemi/foxie-core/blob/61137ee35db79a659b9a71c2cd9fb515a7578116/docs/cli-mcp/getting-started.md).
+>
+> The0.4.0 cask and immutable archives remain unchanged for truthful recovery history. A signed/notarized distributor remedy is pending actual authority and qualification; no0.4.1 Brew upgrade is available or claimed. The instructions below describe the intended channel workflow, not completed Brew personal acceptance.
+
 Use the runtime-inclusive Foxie CLI and its local MCP server on Apple Silicon Macs with macOS 15 or later and current Homebrew. No separate Node installation is needed. This tap reuses Foxie's immutable qualified native archive; it does not rebuild the CLI.
 
 ## Install
